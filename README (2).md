@@ -29,9 +29,7 @@ The architecture diagram represents the S3 document storage system, organized fo
 
 ### Architecture Diagram
 
-> **INSERT ARCHITECTURE DIAGRAM HERE**
-
-**File:** `q2-architecture-diagram.png`
+![Architecture Diagram](images/q2-architecture-diagram.png)
 
 ---
 
@@ -46,11 +44,8 @@ Created an Amazon S3 bucket named `q2-document-storage-2026` in the Europe (Stoc
 - Object Ownership: ACLs Disabled
 - Block All Public Access: Enabled
 
-### Screenshot 1 – S3 Bucket Created
+![S3 Bucket Created](images/q2-bucket-created.png)
 
-> **INSERT SCREENSHOT HERE**
-
-**File:** `q2-bucket-created.png`
 
 ---
 
@@ -68,11 +63,8 @@ q2-document-storage-2026/
     └── AWS-S3-Document.txt
 ```
 
-### Screenshot 2 – Organized Folder
+![Organized Folder](images/q2-organized-folder.png)
 
-> **INSERT SCREENSHOT HERE**
-
-**File:** `q2-organized-folder.png`
 
 ---
 
@@ -82,11 +74,8 @@ Verified that **Block All Public Access** is enabled for the S3 bucket.
 
 This prevents public access to the bucket and its objects.
 
-### Screenshot 3 – Bucket Access Permissions
 
-> **INSERT SCREENSHOT HERE**
-
-**File:** `q2-block-public-access.png`
+![Bucket Access Permissions](images/q2-block-public-access.png)
 
 ---
 
@@ -96,11 +85,9 @@ Enabled **Bucket Versioning** for the S3 bucket.
 
 Versioning allows multiple versions of the same object to be maintained and allows an earlier version to be recovered when required.
 
-### Screenshot 4 – Versioning Enabled
 
-> **INSERT SCREENSHOT HERE**
+![Versioning Enabled](images/q2-versioning-enabled.png)
 
-**File:** `q2-versioning-enabled.png`
 
 ---
 
@@ -128,11 +115,9 @@ Verified that two versions of `AWS-S3-Document.txt` were available:
 - Version 1 – Original document
 - Version 2 – Updated document
 
-### Screenshot 5 – Two Versions
 
-> **INSERT SCREENSHOT HERE**
+![Two Versions](images/q2-two-versions.png)
 
-**File:** `q2-two-versions.png`
 
 ---
 
@@ -144,11 +129,7 @@ The recovered document contained the original content without the Version 2 upda
 
 This demonstrated successful recovery of an earlier version.
 
-### Screenshot 6 – Earlier Version Recovered
-
-> **INSERT SCREENSHOT HERE**
-
-**File:** `q2-old-version-recovered.png`
+![Earlier Version Recovered](images/q2-old-version-recovered.png)
 
 ---
 
