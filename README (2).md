@@ -44,7 +44,7 @@ Created an Amazon S3 bucket named `q2-document-storage-2026` in the Europe (Stoc
 - Object Ownership: ACLs Disabled
 - Block All Public Access: Enabled
 
-images/q2-bucket1-created.png
+![S3 Bucket Created](images/q2-bucket1-created.png)
 
 
 ---
